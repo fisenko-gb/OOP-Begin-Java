@@ -1,14 +1,12 @@
 package Seminars.Seminar03.src;
 
-import java.util.ArrayList;
-import java.util.Collections;
-import java.util.Comparator;
-import java.util.List;
+import java.util.*;
 
 
 public class Main {
 
     public static void main(String[] args) {
+        System.out.println("Задача 1:");
         List<Integer> ar = new ArrayList<>();
         ar.add(16);
         ar.add(11111);
@@ -23,6 +21,19 @@ public class Main {
         Collections.sort(ar, modComparator);
 
         System.out.println(ar);
+        System.out.println("");
+
+        System.out.println("Задача 2:");
+
+        MyCollections col = new MyCollections();
+        col.set(10);
+        col.set(12);
+
+        for(int i : col){
+            System.out.println(col.get(i));
+        }
+
+
     }
 
 }
