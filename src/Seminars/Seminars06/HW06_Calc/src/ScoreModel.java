@@ -1,3 +1,4 @@
+package Seminars.Seminars06.HW06_Calc.src;
 public class ScoreModel extends CalcModel {
 
     @Override

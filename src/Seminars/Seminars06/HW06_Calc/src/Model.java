@@ -1,3 +1,5 @@
+package Seminars.Seminars06.HW06_Calc.src;
+
 public interface Model {
     double resSum(); // сумма
     double resSub(); // вычетание
